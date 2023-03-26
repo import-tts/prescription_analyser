@@ -35,7 +35,7 @@ Duomenys šiam projektui atlikti yra paimti iš Lietuvos atvirų duomenų portal
 [2022_03_2dekada.csv](https://data.gov.lt/dataset/2020/download/12656/espbi_OD_israsyti_receptai_2022_03_3dekada.csv)
 
 
-Darbas yra atliktas Google Colab aplinkoje, kuri suteikia nemokamus išteklius leisti kodą ir treniruoti savo modelį nenaudojant savo lokalios mašinos. Kad turėti patogią prieigą prie atsisiųstų duomenų, rekomenduojama juos susikelti į nuosavą Google Drive ir jį mount'inti Google Colab aplinkoje (kodas tam yra pridėtas ipynb faile, pirma kodo cell'ė).
+Darbas yra atliktas Google Colab aplinkoje, kuri suteikia nemokamus išteklius leisti kodą ir treniruoti savo modelį nenaudojant savo lokalios mašinos. Kad turėti patogią prieigą prie atsisiųstų duomenų, rekomenduojama juos susikelti į nuosavą Google Drive ir jį mount'inti Google Colab aplinkoje. Tą padaryti galima taip:
 
 ```python
 from google.colab import drive
