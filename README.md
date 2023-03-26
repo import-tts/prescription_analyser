@@ -11,7 +11,18 @@
 
 Šis projektas yra skirtas elektroninės sveikatos paslaugų ir bendradarbiavimo infrastruktūros informacinės sistemos e. recepto duomenų analizavimui bei šių duomenų panaudojimui mašininio mokymo modelio sukūrimui, kuris įvertinęs pateiktą informąciją bando nuspėti, ar pacientas panaudos receptą ar ne. Verta atsižvelgti į tai, kad egzistuoja daug veiksnių, kurie nėra pateikti šiuose duomenyse ir gali daryti įtaką galutiniam rezultatui (oro sąlygos, paciento finansinė padėtis, asmeninės problemos ir t.t.), tačiau netgi iš turimų duomenų galima bandyti numatyti, ar pagal vaistą, veikliają medžiagą ir kitus pateiktus atributus pacientas realizuos savo receptą.
 
-Projekto įgyvendinimui sukurtas API, kuriam pateikiant reikiamas reikšmes apie išrašytą receptą grąžinamas nuspėjamas rezultatas ar pacientas bus linkęs pasinaudoti receptu ar ne (žiūrėti prescription_api.py failą).
+Projekto įgyvendinimui sukurtas API, kuriam pateikiant reikiamas reikšmes apie išrašytą receptą grąžinamas nuspėjamas rezultatas ar pacientas bus linkęs pasinaudoti receptu ar ne (žiūrėti prescription_api.py failą). Reikalingų reikšmių struktūra (pavyzdys):
+ {
+ "ligos_kodas" : "Z95.5", 
+ "atc_kodas" : "C10AA07",
+ "dozuociu_sk" : [90], 
+ "recepto_galiojimas_d" : [29],
+ "kompens_poz" : [1], 
+ "pac_savivaldybe" : "Vilniaus m. sav.", 
+ "vart_trukme_d" : [90], 
+ "pac_lytis" : "M", 
+ "pac_amziaus_gr" : "45-64 m."
+}
 
 ## Aplinkos sukūrimas
 
