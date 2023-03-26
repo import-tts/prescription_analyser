@@ -1,0 +1,38 @@
+column_name;column_description
+dirbt_recepto_id;dirbtinis išrašyto recepto identifikatorius
+recepto_metai;recepto išrašymo metai
+recepto_ketv;recepto išrašymo ketvirtis
+ligos_kodas;diagnozės (pagal TLK-10-AM klasifikatorių), pagal kurią išrašytas receptas, kodas
+ligos_pav;diagnozės (pagal TLK-10-AM klasifikatorių), pagal kurią išrašytas receptas, pavadinimas
+vaisto_tipas;skirto vaisto tipas (vaistas, medicinos pagalbos priemonė (MPP), vardinis vaistas, ekstemporalus vaistas, kitos priemonės)
+vaisto_bendr_pav;skiriamo vaisto (vardinio vaisto bendrinis pavadinimas, ekstemporaliam vaistui gaminti naudojamos pagrindinės veikliosios medžiagos pavadinimas) bendrinis pavadinimas
+vaisto_prek_pav;skiriamo vaisto (vardinio vaisto MPP) prekinis pavadinimas
+atc_kodas;skiriamo vaisto* ATC kodas
+atc_pav;skiriamo vaisto ATC pavadinimas
+vaisto_farmac_forma_id;skiriamo bendrinio vaisto arba gaminamos farmacinės formos identifikatorius
+vaisto_farmac_forma_pav;skiriamo bendrinio vaisto arba gaminamos farmacinės formos pavadinimas
+vaisto_stiprumas;skiriamo vaisto stiprumas
+mpp_aprasymas;skiriamo MPP aprašymas
+dozuociu_sk;vaisto dozuočių (MPP vienetų ar kito produkto) skiriamas kiekis
+dozuociu_sk_vnt_id;skiriamo vaisto farmacinės formos dozavimui identifikatorius
+dozuociu_sk_vnt_pav;skiriamo vaisto farmacinės formos dozavimui pavadinimas
+vart_budas_id;skiriamo vaisto vartojimo būdo identifikatorius
+vart_budas_pav;skiriamo vaisto vartojimo būdo pavadinimas
+vien_doze;skiriamo vaisto vienkartinė dozė (vienu kartu vartojamas vaisto kiekis)
+vien_doze_vnt_id;skiriamo vaisto vienkartinės dozės farmacinės formos dozavimui identifikatorius
+vien_doze_vnt_pav;skiriamo vaisto vienkartinės dozės farmacinės formos dozavimui pavadinimas
+vart_daznumas;skiriamo vaisto vartojimo dažnumas (kartais) per laiko vienetą
+vart_laikas;skiriamo vaisto vartojimo laikas (po valgio, prieš miegą)
+vart_trukme_d;bendra skiriamo vaisto vartojimo trukmė dienomis
+gydymui_testi_periodas_d;ilgalaikio gydymo atveju gydymui tęsti išduodamų vaistų periodas dienomis (bendra skiriamo vaisto vartojimo trukmė/išdavimų skaičius)
+recepto_galiojimas_d;išrašyto recepto galiojimo trukmė dienomis
+kompens_poz;požymis nurodantis, kad vaistas yra kompensuojamas (0 – nekompensuojamas, 1 – kompensuojamas)
+vaisto_narkot_poz_id;požymio, nurodančio, ar skiriamas vaistas yra narkotikas, ar psichotropas, ar prekusorius, ar kompensuojamas tik tęstiniam gydymui, identifikatorius
+vaisto_narkot_poz_pav;požymio, nurodančio, ar skiriamas vaistas yra narkotikas, ar psichotropas, ar prekusorius, ar kompensuojamas tik tęstiniam gydymui, pavadinimas
+recepto_statusas;Vaisto skyrimo bei recepto būsena (completed – pagal išrašytą receptą išduotas vaistas, active – išrašytas receptas dar galioja, tačiau vaistas pagal jį neišduotas, stopped – išrašytas receptas nebegalioja ir vaistas nebuvo išduotas, on hold – vaistas pagal išrašytą receptą rezervuotas
+org_savivaldybe;įstaigos, kurioje buvo išrašytas receptas, savivaldybės pavadinimas
+gyd_kvalifikacijos_galioja;duomenų rinkinio formavimo metu galiojanti receptą išrašiusio specialisto kvalifikacija
+pac_lytis;paciento, kuriam išrašytas receptas lytes (V - Tyras, M - myteris)
+pac_amziaus_gr;paciento, kuriam išrašytas receptas, amžiaus grupė (iki 17m., 18-44m., 45-64m., nuo 65m.)
+pac_savivaldybe;paciento, kuriam išrašytas receptas, deklaruotos gyvenamosios vietos savivaldybė
+
