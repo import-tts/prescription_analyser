@@ -4,12 +4,14 @@
 1. Apie projektą
 2. Aplinkos sukūrimas
 3. Duomenys bei naudojimo praktikos
-4. Prisidėjimas prie projekto
-5. Naudinga dokumentacija
+4. Projekto failai
+5. Prisidėjimas prie projekto
 
 ## Apie projektą
 
 Šis projektas yra skirtas elektroninės sveikatos paslaugų ir bendradarbiavimo infrastruktūros informacinės sistemos e. recepto duomenų analizavimui bei šių duomenų panaudojimui mašininio mokymo modelio sukūrimui, kuris įvertinęs pateiktą informąciją bando nuspėti, ar pacientas panaudos receptą ar ne. Verta atsižvelgti į tai, kad egzistuoja daug veiksnių, kurie nėra pateikti šiuose duomenyse ir gali daryti įtaką galutiniam rezultatui (oro sąlygos, paciento finansinė padėtis, asmeninės problemos ir t.t.), tačiau netgi iš turimų duomenų galima bandyti numatyti, ar pagal vaistą, veikliają medžiagą ir kitus pateiktus atributus pacientas realizuos savo receptą.
+
+Projekto įgyvendinimui sukurtas API, kuriam pateikiant reikiamas reikšmes apie išrašytą receptą grąžinamas nuspėjamas rezultatas ar pacientas bus linkęs pasinaudoti receptu ar ne (žiūrėti prescription_api.py failą).
 
 ## Aplinkos sukūrimas
 
@@ -42,6 +44,15 @@ drive.mount("/content/drive")
 ```
 
 Daugiau apie [Google Colab](https://colab.research.google.com). 
+
+## Projekto failai
+
+Projekte randami failai:
+
+**Perscription_prediction_project.ipynb** - Jupyter Notebook failas, kuriame atliekamas duomenų apdirbimas bei modelio treniravimas.   
+**e_receptas_struktura_x.csv** - CSV failas, kuriame yra informacija apie duomenų rinkinio požymius.     
+**prescription_api.py** - Python failas, kuriame yra API kodas skirtas deploy'inti aptreniruotą ir į pickle failą išeksportuotą modelį.   
+**requirements.txt** - tekstinis failas, skirtas virtualios aplinkos sukūrimui instaliuojant reikiamus paketus.
 
 ## Prisidėjimas prie projekto
 
