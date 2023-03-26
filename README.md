@@ -13,7 +13,8 @@
 
 Projekto įgyvendinimui sukurtas API, kuriam pateikiant reikiamas reikšmes apie išrašytą receptą grąžinamas nuspėjamas rezultatas ar pacientas bus linkęs pasinaudoti receptu ar ne (žiūrėti prescription_api.py failą). Reikalingų reikšmių struktūra (pavyzdys):
 
- {    
+```python
+{    
  "ligos_kodas" : "Z95.5",                            
  "atc_kodas" : "C10AA07",     
  "dozuociu_sk" : [90],      
@@ -24,6 +25,7 @@ Projekto įgyvendinimui sukurtas API, kuriam pateikiant reikiamas reikšmes apie
  "pac_lytis" : "M",      
  "pac_amziaus_gr" : "45-64 m."     
 }
+```
 
 ## Aplinkos sukūrimas
 
