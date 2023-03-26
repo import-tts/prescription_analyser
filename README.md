@@ -63,7 +63,7 @@ Daugiau apie [Google Colab](https://colab.research.google.com).
 
 Projekte randami failai:
 
-**Perscription_prediction_project.ipynb** - Jupyter Notebook failas, kuriame atliekamas duomenų apdirbimas bei modelio treniravimas.   
+**perscription_prediction_project.ipynb** - Jupyter Notebook failas, kuriame atliekamas duomenų apdirbimas bei modelio treniravimas.   
 **e_receptas_struktura_x.csv** - CSV failas, kuriame yra informacija apie duomenų rinkinio požymius.     
 **prescription_api.py** - Python failas, kuriame yra API kodas skirtas deploy'inti aptreniruotą ir į pickle failą išeksportuotą modelį.   
 **requirements.txt** - tekstinis failas, skirtas virtualios aplinkos sukūrimui instaliuojant reikiamus paketus.
