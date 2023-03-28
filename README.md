@@ -19,8 +19,6 @@ Projekto pirmos iteracijos įgyvendinimas laikomas sėkmingu, jei:
 
 Pirmos iteracijos eigoje užsibrėžti tikslai buvo pasiekti.
 
-Tikslai antrai iteracijai:
-   - to be decided
 
 ## Aplinkos sukūrimas
 
