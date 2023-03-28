@@ -56,6 +56,10 @@ Daugiau apie [Google Colab](https://colab.research.google.com).
 
 Projekto įgyvendinimui sukurtas API, kuriam pateikiant reikiamas reikšmes apie išrašytą receptą grąžinamas nuspėjamas rezultatas ar pacientas bus linkęs pasinaudoti receptu ar ne (žiūrėti prescription_api.py failą). Reikalingų reikšmių struktūra (pavyzdys):
 
+request metodas: POST
+URL: http://127.0.0.1:4000/prediction
+Aprašymas: pateikus reikalingas reikšmes grąžina spėjimo vertę
+
 ```python
 {    
  "ligos_kodas" : "Z95.5",                            
@@ -69,6 +73,20 @@ Projekto įgyvendinimui sukurtas API, kuriam pateikiant reikiamas reikšmes apie
  "pac_amziaus_gr" : "45-64 m."     
 }
 ```
+
+Papildomi funkcionalumai:
+
+request metodas: GET
+URL: http://127.0.0.1:4000/
+Aprašymas: pasisveikina su vartotoju, atvykusiu į homepage
+
+request metodas: GET
+URL: http://127.0.0.1:4000/explain_prediction
+Aprašymas: paaiškina predict metodo grąžinamų verčių reikšmę
+
+request metodas: GET
+URL: http://127.0.0.1:4000/example_prediction
+Aprašymas: pateikia JSON pavyzdį, kurį reikia pateikti predict metodui
 
 ## Projekto failai
 
