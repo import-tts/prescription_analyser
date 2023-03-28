@@ -72,6 +72,8 @@ Projekte randami failai:
 
 **requirements.txt** - tekstinis failas, skirtas virtualios aplinkos sukūrimui instaliuojant reikiamus paketus.
 
+**Baigiamojo darbo pristatymas.pdf** - darbo pristatymo skaidrės
+
 ## Prisidėjimas prie projekto
 
 Šis projektas yra atviras viešam naudojimui ir Pull request'ai yra ne tik laukiami, bet ir skatinami, kad būtų galima pasiekti geresnius rezultatus bei patobulinti kodo kokybę.
