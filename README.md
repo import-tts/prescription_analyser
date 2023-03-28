@@ -11,6 +11,16 @@
 
 Šis projektas yra skirtas elektroninės sveikatos paslaugų ir bendradarbiavimo infrastruktūros informacinės sistemos e. recepto duomenų analizavimui bei šių duomenų panaudojimui mašininio mokymo modelio sukūrimui, kuris įvertinęs pateiktą informąciją bando nuspėti, ar pacientas panaudos receptą ar ne. Verta atsižvelgti į tai, kad egzistuoja daug veiksnių, kurie nėra pateikti šiuose duomenyse ir gali daryti įtaką galutiniam rezultatui (oro sąlygos, paciento finansinė padėtis, asmeninės problemos ir t.t.), tačiau netgi iš turimų duomenų galima bandyti numatyti, ar pagal vaistą, veikliają medžiagą ir kitus pateiktus atributus pacientas realizuos savo receptą.
 
+Projekto pirmos iteracijos įgyvendinimas laikomas sėkmingu, jei:
+   - duomenys yra išnagrinėti ir pasirinkti tinkamiausi požymiai modeliui sukurti
+   - egzistuoja modelis, kuris naudojant šaltinio duomenis gali bent 70% tikslumu nuspėti recepto panaudojimo tikimybę
+   - modelio kūrimas yra dokumentuotas
+   - egzistuoja API, kuriam pateikiant naujus duomenis yra grąžinamas spėjimas
+
+Pirmos iteracijos eigoje užsibrėžti tikslai buvo pasiekti.
+
+Tikslai antrai iteracijai:
+   - to be decided
 
 ## Aplinkos sukūrimas
 
